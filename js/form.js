@@ -27,3 +27,16 @@ function Post(form) {
 
     return false;
 }
+
+function desabilitar(check){
+
+    const btnLGPD = document.getElementById("btnLGPD");
+
+    if(check.checked){
+        btnLGPD.disabled = false;
+        btnLGPD.classList.remove("off");
+    }else{
+        btnLGPD.disabled = true;
+        btnLGPD.classList.toggle("off");
+    }
+}

@@ -47,6 +47,7 @@ button {
     height: 40px;
     margin-right: 8px;
     float: right;
+    cursor: pointer;
 }
 
 .titulo {
@@ -61,3 +62,10 @@ button {
     padding: 5px;
     text-align: justify;
 }
+
+.off, .off:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    cursor: auto;
+} 

@@ -49,17 +49,17 @@
                     <option>E-MAIL</option>
                 </select>
                 <div class="lgpd">
-                    <p>Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A qualquer momento, será possível editar ou remover tais dados. <a target="_blank" href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a> </p>
+                    <p>Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A qualquer momento, será possível editar ou remover tais dados. <a target="_blank" href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a></p>
                 </div>
                 <div class="lgpd">
-                  <input type="checkbox" name="" id="">  
-                  <label for="check1">Sim. Li e concordo com os Termos e Condições.</label>
+                    <input type="checkbox" name="" id="check1" onchange="desabilitar(this);">
+                    <label for="check1">Sim. Li e concordo com os Termos e Condições.</label>
                 </div>
                 <div class="lgpd">
-                    <input type="checkbox" name="" id=""> 
-                  <label for="check2">Sim. Também quero receber descontos e novidades.</label>
+                    <input type="checkbox" name="" id="check2">
+                    <label for="check2">Sim. Também quero receber descontos e novidades.</label>
                 </div>
-            <button type="submit" disabled>Enviar</button>
+            <button type="submit" disabled id="btnLGPD" class="off">Enviar</button>
             </form>
             </div>
         </div>
